@@ -1,0 +1,45 @@
+.H{
+
+    display: flex;
+    justify-content: space-between;
+    height: clamp(7.5vw 10vw 12.5vw);
+    background-color: #ccc;
+}
+
+.H_comp{
+    padding: 10px;
+}
+
+.H_text{
+    margin-top: 15px;
+}
+.t_h1{
+    font-size: 28px;
+    font-weight: 600px;
+    font-family: "Poppins";
+    color: black;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+    display: inline-flex;
+    position: flex-start;
+    margin: 0px 20px;
+    
+}
+
+.button{
+    margin: 0px 20px;
+    padding: 10px;
+    font-size: 1.6vw;
+    width: clamp(10vw 15vw 20vw);
+    height: clamp(7vw 8vw 9vw);
+    display: inline-flex;
+    position: flex-end;
+    color: black;
+    background-color: #FFF;
+    transition: 0.4s;
+}
+.button:hover{
+    color: white;
+    background-color: #050;
+    transition: 0.4s;
+}

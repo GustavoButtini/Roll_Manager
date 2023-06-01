@@ -1,0 +1,22 @@
+.Header_1{
+    font-size: 32px;
+    font-weight: 600px;
+    font-family: "Poppins";
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+.Div_F{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+.P_1{
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: "Poppins";
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
